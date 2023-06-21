@@ -1,7 +1,18 @@
 .product {
   border: 1px solid rgb(198, 190, 190);
   border-radius: 8px;
-  padding: 7px;
+  position: relative;
+}
+.product-detail {
+    padding: 7px;
+    
+}
+.product-detail p {
+    margin: 0px;
+}
+.product-info {
+    padding-top: 10px;
+    padding-bottom: 70px;
 }
 .product img {
   width: 100%;
@@ -14,4 +25,15 @@
   font-weight: 700;
   font-size: 21px;
   line-height: 25px;
+}
+.btn-cart {
+    width: 100%;
+    background-color: #FFE0B3;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0px;
+}
+.btn-cart:hover {
+    background-color: orange;
 }
